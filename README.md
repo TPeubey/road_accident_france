@@ -12,7 +12,7 @@ There are two purposes. The first is to process the data in the same way as ETL 
 Once the python scripts were created, it was necessary to automate these tasks using Airflow.Finally, create a dashboard. 
 This allowed me to use Airflow for the first time.
 
-#### Strategy:
+#### ETL Pipeline:
 1. Get data from website
 2. Convert csv file to tsv file makes (it easier to manipulate them when it comes to large files.)
 3. Data processing
@@ -23,7 +23,7 @@ This allowed me to use Airflow for the first time.
 2. ELT strategy: Here the data is retrieved by storing it directly in a datawarehouse to process the data directly inside.
 It was necessary to automate these tasks using Airflow.Finally, create a dashboard.
 
-#### Strategy:
+#### ELT Pipeline:
 1. Get data from website
 2. Load data to Bigquery
 3. Data processing
