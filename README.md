@@ -38,5 +38,4 @@ For more information on the data click [here](https://www.data.gouv.fr/en/datase
 - Python
 - Google cloud platform (Bigquery: SQL query, API)
 - Data visualization: Data studio, PowerBI, Tableau *\[in progress]* 
-<span style="color:red">*\[in progress]*</span>
  
