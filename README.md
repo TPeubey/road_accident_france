@@ -12,17 +12,16 @@ There are two purposes. The first is to process the data in the same way as ETL 
 Once the python scripts were created, it was necessary to automate these tasks using Airflow.Finally, create a dashboard. 
 This allowed me to use Airflow for the first time.
 
+*(ELT strategy in progress)*
+2. ELT strategy: Here the data is retrieved by storing it directly in a datawarehouse to process the data directly inside.
+It was necessary to automate these tasks using Airflow.Finally, create a dashboard.
+
 #### ETL Pipeline:
 1. Get data from website
 2. Convert csv file to tsv file makes (it easier to manipulate them when it comes to large files.)
 3. Data processing
 4. Load data to Bigquery
 5. Create Dashboard
-
-<!--(ELT strategy in progress) -->
-
-2. ELT strategy: Here the data is retrieved by storing it directly in a datawarehouse to process the data directly inside.
-It was necessary to automate these tasks using Airflow.Finally, create a dashboard.
 
 #### ELT Pipeline:
 1. Get data from website
@@ -35,7 +34,7 @@ For more information on the data click [here](https://www.data.gouv.fr/en/datase
 
 #### Tools:
 - Airflow
-- Data build tool (dbt) [//]: # (in progress)
+- Data build tool (dbt) *(in progress)*
 - Python
 - Google cloud platform (Bigquery: SQL query, API)
-- Data visualization: Data studio, PowerBI, Tableau [//]: # (in progress)
+- Data visualization: Data studio, PowerBI, Tableau *(in progress)*
