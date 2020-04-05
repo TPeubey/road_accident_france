@@ -19,7 +19,7 @@ This allowed me to use Airflow for the first time.
 4. Load data to Bigquery
 5. Create Dashboard
 
-[comment]: <> (ELT strategy in progress)
+[//] <> (ELT strategy in progress)
 2. ELT strategy: Here the data is retrieved by storing it directly in a datawarehouse to process the data directly inside.
 It was necessary to automate these tasks using Airflow.Finally, create a dashboard.
 
@@ -34,7 +34,7 @@ For more information on the data click [here](https://www.data.gouv.fr/en/datase
 
 #### Tools:
 - Airflow
-- Data build tool (dbt) [comment]: <> (in progress)
+- Data build tool (dbt) [//]: <> (in progress)
 - Python
 - Google cloud platform (Bigquery: SQL query, API)
-- Data visualization: Data studio, PowerBI, Tableau [comment]: <> (in progress)
+- Data visualization: Data studio, PowerBI, Tableau [//]: <> (in progress)
