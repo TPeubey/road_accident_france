@@ -12,8 +12,7 @@ There are two purposes. The first is to process the data in the same way as ETL 
 Once the python scripts were created, it was necessary to automate these tasks using Airflow.Finally, create a dashboard. 
 This allowed me to use Airflow for the first time.
 
-*\[ELT strategy in progress]*
-&nbsp; <!-- saut de ligne -->
+*\[ELT strategy in progress]* <br/> <!-- saut de ligne -->
 2. ELT strategy: Here the data is retrieved by storing it directly in a datawarehouse to process the data directly inside.
 It was necessary to automate these tasks using Airflow.Finally, create a dashboard.
 
@@ -35,7 +34,7 @@ For more information on the data click [here](https://www.data.gouv.fr/en/datase
 
 #### Tools:
 - Airflow
-- Data build tool (dbt) <font size="6"><em>(in progress)</em></font>
+- Data build tool (dbt) *\[in progress]*
 - Python
 - Google cloud platform (Bigquery: SQL query, API)
-- Data visualization: Data studio, PowerBI, Tableau *(in progress)*
+- Data visualization: Data studio, PowerBI, Tableau *\[in progress]*
