@@ -34,7 +34,7 @@ For more information on the data click [here](https://www.data.gouv.fr/en/datase
 
 #### Tools:
 - Airflow
-- Data build tool (dbt) <font size="1">*This is my text number1*</font>
+- Data build tool (dbt) <font size="6"><em>(in progress)</em></font>
 - Python
 - Google cloud platform (Bigquery: SQL query, API)
 - Data visualization: Data studio, PowerBI, Tableau *(in progress)*
